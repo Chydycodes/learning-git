@@ -1,0 +1,84 @@
+/* FONT DEFINITIONS */
+
+@font-face{
+    font-family: myfont;
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: fontbold;
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face{
+    font-family: mythinfont;
+    src: url(../font/Montserrat/Montserrat-Thin.ttf);
+}
+@font-face{
+    font-family: bs;
+    src: url(../font/Backstreet.ttf);
+    font-weight: bold;
+}
+
+/* FONT ENDS HERE */
+
+/* FORM STYLES STARTS HERE*/
+html,body{
+    background-color: rgb(3, 3, 20);
+    font-family: mythinfont;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+h1,h2,h3,h4,h5{
+    margin: 0px;
+    padding: 0px;
+}    
+h4{    
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content3{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+.content3> h5{
+    font-weight: 500;
+}
+#login{
+    display: none;
+}
+.content3 h4{
+    margin: 10px;
+    padding: 5px;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-family: myfont;
+}
+.submit{
+    cursor: pointer;
+    width: 270px;
+    background: rgb(255, 166, 0);
+    color: white;
+    font-family: fontbold;
+}
+.submit:hover{
+    background: rgb(255, 115, 0);
+    transition: .3s ease-in-out;
+}
+strong{
+    text-decoration: none;
+    /* font-weight: 900; */
+    color: white;
+    cursor: pointer;
+    font-family: fontbold;
+}
+a:hover{
+   color: darkgrey; 
+}
